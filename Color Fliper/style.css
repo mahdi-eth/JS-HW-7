@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: 90vh;
+}
+
+#flipper {
+    padding: .5rem;
+    border-radius: .4rem;
+    background-color: #fff;
+}
+
+#submit {
+    padding: .5rem;
+    border-radius: .4rem;
+    background-color: inherit;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#submit:hover , #submit:focus-visible {
+    box-shadow: inset  0rem 0rem .6rem 0 rgba(0, 0, 0, 0.521);
+}
