@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#submit {
+    font-size: 3.6rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#submit:hover {
+    box-shadow: inset 0 0 .8rem .4rem rgba(0, 0, 0, 0.119);
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+    font-size: 12.4rem;
+    border: .5rem solid black;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    background: #fff;
+    position: absolute;
+    transform: scale(0);
+    transition: all 1s;
+}
+
+.modal img {
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    align-self: flex-start;
+}
